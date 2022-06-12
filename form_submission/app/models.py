@@ -10,4 +10,5 @@ class Customer(models.Model):
 	date_of_birth = models.CharField(max_length=200)
 
 	def __str__(self):
-		return self.first_name + ' ' + self.last_name 
+		return self.full_name 
+ 
